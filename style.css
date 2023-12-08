@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+body {
+    background: aliceblue;
+}
+
+header {
+    background: #335ebb;
+    padding: 18px 0;
+    color: antiquewhite;
+    font-size: 1.75rem;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+
+}
+
+.todaysWeather {
+    background-color: rgb(149, 211, 236);  
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    justify-content: space-around;
+}
+
+.display {
+    display: flex;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchButton {
+    width: 100%;
+}
+
+.card {
+ background-color: rgb(149, 211, 236);   
+
+}
